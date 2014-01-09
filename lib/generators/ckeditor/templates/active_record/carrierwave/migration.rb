@@ -12,7 +12,9 @@ class CreateCkeditorAssets < ActiveRecord::Migration
       # Uncomment	it to save images dimensions, if your need it
       t.integer :width
       t.integer :height
-      
+
+      t.integer :app_id
+
       t.timestamps
     end
     

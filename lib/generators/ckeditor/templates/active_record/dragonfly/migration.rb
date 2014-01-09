@@ -14,6 +14,8 @@ class CreateCkeditorAssets < ActiveRecord::Migration
       t.integer :data_width
       t.integer :data_height
 
+      t.intger :app_id
+
       t.timestamps
     end
 
